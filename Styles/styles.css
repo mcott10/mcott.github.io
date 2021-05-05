@@ -42,8 +42,9 @@ html,body{
 }
 
 .navbar-toggler{
-    background: #00A5AD
+    background: #13294B
 }
+
 
 /* WORKOUT AND MEETINGS "CARD"*/
 .meetings {
@@ -83,16 +84,20 @@ html,body{
     margin-right: 5%;
 }
 
-.wkot-content button {
+.wkot-content a{
+    color: white;
     font-size: smaller;
     background-color: #13294B;
-    color: white;
+    padding: 5%;
+    height: min-content;
 }
 
-.wkot-content button:hover {
+.wkot-content a:hover {
     background: #4B9CD3;
     color: #13294B;
     font-weight: bold;
+    text-decoration: none;
+    border:#13294B solid 1px ;
 }
 
 /*CENTER INFORMATION CARD*/
@@ -116,15 +121,18 @@ html,body{
     font-weight: bold;
 }
 
-.about button {
+.about a {
     background: #13294B;
     color: white;
+    padding:3%;
 }
 
-.about button:hover {
+.about a:hover {
     background: #4B9CD3;
     color: #13294B;
     font-weight: bold;
+    text-decoration: none;
+    border:#13294B solid 1px ;
 }
 
 /*CAROUSEL*/
