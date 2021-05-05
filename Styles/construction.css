@@ -1,0 +1,84 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: raleway, sans-serif;
+}
+
+
+
+/*HEADER AND NAV*/
+.site-header {
+    background: #4B9CD3;
+    height: 15%;
+    font-family: raleway, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header img {
+    width: 30%;
+    margin: 3%;
+}
+
+.navbar{
+    margin-left: 2%;
+}
+
+#nav-content a {
+    font-weight: bold;
+    color: #13294B;
+    font-size: 1.3rem;
+}
+
+#nav-content a:hover {
+    color: white;
+}
+
+.navbar-toggler{
+    background: #00A5AD
+}
+
+/*MAIN CARD*/
+.construction i{
+    color: #4B9CD3;
+    margin-top: .5%;
+    margin-bottom: 2%;
+}
+.construction{
+    background-color:#F2F2F2 ;
+    margin: 4%;
+    color:#13294B ;
+    border-radius: 5px;
+}
+
+.construction a{
+    color: #4B9CD3;
+    font-weight: bold;
+}
+
+.construction a:hover{
+    color: #00A5AD;
+}
+
+/*FOOTER*/
+.page-footer {
+    height: max-content;
+    background: #4B9CD3;
+    margin-top: 4%;
+    padding-top: 2%;
+}
+
+.page-footer h4 {
+    font-weight: bold;
+}
+
+i {
+    margin: 5%
+}
